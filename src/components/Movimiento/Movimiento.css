@@ -1,0 +1,14 @@
+.global-container {
+    padding: 75px;
+}
+
+.avatars-container {
+    justify-content: center !important;
+}
+
+@media (max-width: 1200px) {
+    .global-container {
+        padding: 75px;
+    }
+    }
+
