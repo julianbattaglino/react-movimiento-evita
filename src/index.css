@@ -19,16 +19,32 @@ a {
   color: rgba(0, 0, 0, 0.87) !important;
 }
 
+h2 {
+  margin-block-start:0 !important;
+  margin-block-end: 0 !important;
+}
+/*Lefleat Map*/
 .leaflet-container {
   width: 100vw;
   height: 90vh;
 }
-
 .leaflet-popup {
   position: absolute;
   text-align: center;
   margin-bottom: 20px;
-}  
+} 
+.css-o69gx8-MuiCardMedia-root {
+  object-fit: contain !important;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+  padding: 20px 0 10px 0 !important;
+}
+
 .logo {
   max-width: 75px;
   padding: 15px 25px;
@@ -39,6 +55,11 @@ a {
 
 .header {
   background-color: #194c92 !important;
+  padding-left: 0px;
+}
+
+.menu-container {
+    padding-left: 0 !important;
 }
 
 .css-1q39md6-MuiButtonBase-root-MuiButton-root {
