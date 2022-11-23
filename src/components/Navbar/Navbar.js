@@ -34,7 +34,7 @@ function ResponsiveAppBar() {
 
     return (
         <AppBar className="header" position="static">
-            <Container maxWidth="xl">
+            <Container className='menu-container' maxWidth="xl">
                 <Toolbar disableGutters>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
