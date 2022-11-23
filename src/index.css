@@ -19,6 +19,12 @@ a {
   color: rgba(0, 0, 0, 0.87) !important;
 }
 
+p {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
 h2 {
   margin-block-start:0 !important;
   margin-block-end: 0 !important;
