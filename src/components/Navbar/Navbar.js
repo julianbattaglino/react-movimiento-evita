@@ -64,14 +64,19 @@ function ResponsiveAppBar() {
                                     <Typography textAlign="center">Inicio</Typography>
                                 </MenuItem>
                             </Link>
+
+                            <Link to='/el-movimiento' >
                             <MenuItem onClick={handleCloseNavMenu}>
                                 <Typography textAlign="center">El Movimiento</Typography>
                             </MenuItem>
+                            </Link>
+
                             <Link to='/unidades-productivas' >
                                 <MenuItem onClick={handleCloseNavMenu}>
                                     <Typography textAlign="center">Mapa Unidades Productivas</Typography>
                                 </MenuItem>
                             </Link>
+
                         </Menu>
                     </Box>
                     <img className='logo' src="/images/logo-white.png" alt='Movimiento Evita Azul Logo' />
@@ -94,6 +99,7 @@ function ResponsiveAppBar() {
                     >
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+
                         <Link to='/' >
                             <Button
                                 onClick={handleCloseNavMenu}
@@ -102,12 +108,16 @@ function ResponsiveAppBar() {
                                 Inicio
                             </Button>
                         </Link>
+
+                        <Link to='/el-movimiento' >
                         <Button
                             onClick={handleCloseNavMenu}
                             sx={{ my: 2, color: 'white', display: 'block' }}
                         >
                             El Movimiento
                         </Button>
+                        </Link>
+                        
                         <Link to='/unidades-productivas' >
                             <Button
                                 onClick={handleCloseNavMenu}
