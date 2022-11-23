@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,37 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.leaflet-container {
+  width: 100vw;
+  height: 90vh;
+}
+
+.leaflet-popup {
+  position: absolute;
+  text-align: center;
+  margin-bottom: 20px;
+}  
+.logo {
+  max-width: 75px;
+  padding: 15px 25px;
+}
+.banner {
+  max-width: 100%;
+}
+
+.header {
+  background-color: #194c92 !important;
+}
+
+.css-1q39md6-MuiButtonBase-root-MuiButton-root {
+  font-family: 'Inter', sans-serif !important;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
 }

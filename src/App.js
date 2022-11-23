@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import {Helmet} from "react-helmet";
+
+import Map from './components/Map/Map';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Movimiento Evita Azul - Webapp</title>
+        <meta name="description" content="Sitio web oficial del Movimiento Evita Azul"></meta>
+      </Helmet>
+      <BrowserRouter >
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path='/unidades-productivas' element={<Map />} />
+        </Routes>
+      </BrowserRouter>
+
     </div>
   );
 }
