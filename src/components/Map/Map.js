@@ -37,7 +37,7 @@ const Map = () => {
 
               <Marker position={[-36.778, -59.870]} icon={MarkerIcon} >
                 <Popup>
-                  <Card sx={{ maxWidth: 345 }}>
+                  <Card className="card" sx={{ maxWidth: 345 }}>
                     <CardMedia className="popup-img"
                       component="img"
                       alt="green iguana"
@@ -67,7 +67,7 @@ const Map = () => {
 
               <Marker position={[-36.773, -59.844]} icon={MarkerIcon} >
                 <Popup>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card className="card" sx={{ maxWidth: 345 }}>
                     <CardMedia className="popup-img"
                       component="img"
                       alt="green iguana"
@@ -97,7 +97,7 @@ const Map = () => {
 
               <Marker position={[-36.794, -59.854]} icon={MarkerIcon} >
                 <Popup>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card className="card" sx={{ maxWidth: 345 }}>
                     <CardMedia className="popup-img"
                       component="img"
                       alt="green iguana"
@@ -126,7 +126,7 @@ const Map = () => {
 
               <Marker position={[-36.791, -59.875]} icon={MarkerIcon} >
                 <Popup>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card className="card" sx={{ maxWidth: 345 }}>
                     <CardMedia className="popup-img"
                       component="img"
                       alt="green iguana"
@@ -161,7 +161,7 @@ const Map = () => {
 
               <Marker position={[-36.848, -59.962]} icon={MarkerIcon} >
                 <Popup>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card className="card" sx={{ maxWidth: 345 }}>
                     <CardMedia className="popup-img"
                       component="img"
                       alt="green iguana"
@@ -190,7 +190,7 @@ const Map = () => {
 
               <Marker position={[-36.778, -59.870]} icon={MarkerIcon} >
                 <Popup>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card className="card" sx={{ maxWidth: 345 }}>
                     <CardMedia className="popup-img"
                       component="img"
                       alt="green iguana"
@@ -226,7 +226,7 @@ const Map = () => {
 
               <Marker position={[-36.796, -59.874]} icon={MarkerIcon} >
                 <Popup>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card className="card" sx={{ maxWidth: 345 }}>
                     <CardMedia className="popup-img"
                       component="img"
                       alt="green iguana"
@@ -261,7 +261,7 @@ const Map = () => {
 
               <Marker position={[-36.787, -59.862]} icon={MarkerIcon} >
                 <Popup>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card className="card" sx={{ maxWidth: 345 }}>
                     <CardMedia className="popup-img"
                       component="img"
                       alt="green iguana"
@@ -296,7 +296,7 @@ const Map = () => {
 
               <Marker position={[-36.796, -59.856]} icon={MarkerIcon} >
                 <Popup>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card className="card" sx={{ maxWidth: 345 }}>
                     <CardMedia className="popup-img"
                       component="img"
                       alt="green iguana"
@@ -325,7 +325,7 @@ const Map = () => {
 
               <Marker position={[-36.7967973, -59.8563133]} icon={MarkerIcon} >
                 <Popup>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card className="card" sx={{ maxWidth: 345 }}>
                     <CardMedia className="popup-img"
                       component="img"
                       alt="green iguana"
@@ -354,7 +354,7 @@ const Map = () => {
 
               <Marker position={[-36.787, -59.843]} icon={MarkerIcon} >
                 <Popup>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card className="card" sx={{ maxWidth: 345 }}>
                     <CardMedia className="popup-img"
                       component="img"
                       alt="green iguana"
@@ -388,7 +388,7 @@ const Map = () => {
 
               <Marker position={[-36.7823, -59.867]} icon={MarkerIcon} >
                 <Popup>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card className="card" sx={{ maxWidth: 345 }}>
                     <CardMedia className="popup-img"
                       component="img"
                       alt="green iguana"
