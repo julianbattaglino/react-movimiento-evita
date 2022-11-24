@@ -3,6 +3,7 @@ import {Helmet} from "react-helmet";
 
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
+import Posts from './components/Posts/Posts';
 import Map from './components/Map/Map';
 import Movimiento from './components/Movimiento/Movimiento';
 
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/el-movimiento" element={<Movimiento />} />
+          <Route path="/novedades" element={<Posts />} />
           <Route path='/unidades-productivas' element={<Map />} />
         </Routes>
       </BrowserRouter>
