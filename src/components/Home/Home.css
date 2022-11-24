@@ -29,7 +29,7 @@
     font-size: 48px;
     font-weight: 500;
     color: #194c92;
-    text-align: center;
+    text-align: left;
     align-items: center;
 }
 
@@ -40,6 +40,7 @@ span.bolder {
 @media (max-width: 769px) {
     .welcome-title {
         font-size: 28px;
+        text-align: center;
     }
 
     .container-intro {
