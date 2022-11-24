@@ -77,6 +77,13 @@ function ResponsiveAppBar() {
                                 </MenuItem>
                             </Link>
 
+                            <Link to='/novedades' >
+                                <MenuItem onClick={handleCloseNavMenu}>
+                                    <Typography textAlign="center">Novedades</Typography>
+                                </MenuItem>
+                            </Link>
+
+
                         </Menu>
                     </Box>
                     <img className='logo' src="/images/logo-white.png" alt='Movimiento Evita Azul Logo' />
@@ -117,7 +124,7 @@ function ResponsiveAppBar() {
                             El Movimiento
                         </Button>
                         </Link>
-                        
+
                         <Link to='/unidades-productivas' >
                             <Button
                                 onClick={handleCloseNavMenu}
@@ -126,6 +133,16 @@ function ResponsiveAppBar() {
                                 Mapa Unidades Productivas
                             </Button>
                         </Link>
+
+                        <Link to='/novedades' >
+                            <Button
+                                onClick={handleCloseNavMenu}
+                                sx={{ my: 2, color: 'white', display: 'block' }}
+                            >
+                                Novedades
+                            </Button>
+                        </Link>
+
                     </Box>
 
                 </Toolbar>
