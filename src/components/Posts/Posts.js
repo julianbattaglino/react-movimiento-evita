@@ -1,36 +1,38 @@
+import './Posts.css';
+
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 
-import { Link } from 'react-router-dom'
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
 
 
 const Posts = () => {
 
+
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        let url = 'https://movimientoevitaazul.com.ar/wp-json/wp/v2/posts?_embed';
+        let url = 'https://blog.movimientoevitaazul.com.ar/wp-json/wp/v2/posts?_embed';
         axios.get(url).then((res) => {
             setPosts(res.data);
         });
     }, []);
     console.log('posts', posts);
 
+
     return (
         <>
-            <div className='global-container'>
+            <div className='global-container posts-grid'>
                 {
                     posts && posts.map(post => {
                         console.log('post', post);
                         return (
 
-
-                            <Card key={post.id} className="post-card" sx={{ maxWidth: 345 }}>
+                            <Card key={post.id} className="post-card">
                                 <CardMedia className=""
                                     component="img"
                                     alt={post.title.rendered}
@@ -39,7 +41,7 @@ const Posts = () => {
 
                                 />
                                 <CardContent>
-                                    <span className=''><b>{post.title.rendered}</b></span><br /><br />
+                                    <span className=''><b>{post.title.rendered}</b></span>
                                 </CardContent>
                                 <CardActions>
 
@@ -48,7 +50,6 @@ const Posts = () => {
                                             Ver más
                                         </Button>
                                     </a>
-
                                 </CardActions>
                             </Card>
 
