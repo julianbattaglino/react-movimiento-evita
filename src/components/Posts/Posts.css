@@ -3,6 +3,45 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.post-content {
+    padding: 16px 16px 0 16px !important;
+}
+.post-img {
+    height: 200px;
+}
+.post-badge {
+    margin-bottom: 15px !important;
+}
+h2.title {
+    font-size: 18px !important;
+
+}
+
+.underline-nice {
+    margin-block-start: 0;
+    font-size: 20px;
+    font-weight: 400 !important;
+    background-image: linear-gradient(120deg, rgba(25, 76, 146, 0.1) 0%, rgba(25, 76, 146, 0.1) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.5em;
+    background-position: 0 100%;
+    transition: background-size 0.25s ease-in;
+    width: fit-content;
+}
+.cursor-link {
+    cursor: pointer !important;
+}
+.btn-container {
+    padding: 0 0 16px 16px !important;
+}
+.btn-showmore {
+    font-family: 'Inter', sans-serif !important;
+    background-color: #194C92 !important;
+    text-transform: capitalize !important;
+    font-weight: 500 !important;
+}
+
+
 
 @media (max-width: 769px) {
     .posts-grid {
