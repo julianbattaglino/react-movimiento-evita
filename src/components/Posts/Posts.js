@@ -44,7 +44,6 @@ const Posts = () => {
                                 />
                                 <CardContent className="post-content">
                                     <a href={post._embedded['wp:term']['0']['0'].link} target="_blank" rel="noreferrer"><h3 className="underline-nice">{"Categoria: " + post._embedded['wp:term']['0']['0'].name}</h3></a>
-
                                     <h2 className="title"><b>{post.title.rendered}</b></h2>
                                     <p>Publicado el: {post.formatted_date}</p>
 
