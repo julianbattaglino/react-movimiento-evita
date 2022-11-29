@@ -1,5 +1,4 @@
 import './Home.css';
-import Posts from '../Posts/Posts';
 
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
