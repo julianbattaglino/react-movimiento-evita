@@ -29,27 +29,6 @@ h2 {
   margin-block-start:0 !important;
   margin-block-end: 0 !important;
 }
-/*Lefleat Map*/
-.leaflet-container {
-  width: 100vw;
-  height: 90vh;
-}
-.leaflet-popup {
-  position: absolute;
-  text-align: center;
-  margin-bottom: 20px;
-} 
-.popup-img {
-  object-fit: contain !important;
-}
-
-.leaflet-popup-content {
-  margin: 0 !important;
-}
-
-.card {
-  padding: 20px 0 10px 0 !important;
-}
 
 .logo {
   max-width: 75px;
