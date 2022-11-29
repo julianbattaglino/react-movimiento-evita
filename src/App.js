@@ -14,7 +14,7 @@ function App() {
     <div className="app">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Movimiento Evita Azul - Webapp</title>
+        <title>Movimiento Evita Azul - react.js Webapp</title>
         <meta name="description" content="Sitio web oficial del Movimiento Evita Azul"></meta>
       </Helmet>
       <BrowserRouter >
