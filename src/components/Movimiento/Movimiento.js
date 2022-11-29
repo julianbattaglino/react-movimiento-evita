@@ -23,7 +23,7 @@ const Movimiento = () => {
                 <p>El Movimiento Evita, como otros movimientos de desocupados, concede un papel central a la organización de sus integrantes para trabajar cooperativamente, principalmente en la construcción de viviendas populares, financiadas por el Estado. La política de poder popular del Movimiento Evita fue explicada en estos términos por uno de sus integrantes:</p>
                 <q>La organización popular determina la posibilidad para los participantes de apropiarse de las decisiones de políticas públicas y de la asignación de recursos. Esto genera una relación mucho más sólida de las políticas públicas con sus beneficiarios, que hace que este proceso sea más difícil de revertir. Cuando una persona en una cooperativa construye cincuenta casas, ¿cómo se le puede decir que ya no tiene su empleo? En cambio cuando las casas son construidas por empresas privadas, simplemente se presenta en otra licitación estatal. Esto último no produce una relación de poder en la que el pueblo participa activamente. A esto le llamamos política social, como la llamó Evita: "la fuerza popular organizada", "el poder popular".</q>
             </div>
-            <Stack className="avatars-container" direction="row" spacing={2}>
+            <Stack className="avatars-container global-container" direction="row" spacing={2}>
                 <Avatar alt="Silvia Casares Aavatar" src="/static/images/avatar/1.jpg" />
                 <Avatar alt="Tata Avatar" src="/static/images/avatar/2.jpg" />
             </Stack>
