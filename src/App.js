@@ -16,6 +16,7 @@ function App() {
         <meta charSet="utf-8" />
         <title>Movimiento Evita Azul - react.js Webapp</title>
         <meta name="description" content="Sitio web oficial del Movimiento Evita Azul"></meta>
+        <meta name="theme-color" content="#194C92"></meta>
       </Helmet>
       <BrowserRouter >
         <Navbar />
