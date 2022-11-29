@@ -14,7 +14,7 @@ const Movimiento = () => {
             </Helmet>
 
             <div className="global-container">
-                <h1 className="welcome-title">Acerca del&nbsp;<span className="bolder"> Movimiento Evita Azul.</span></h1>
+                <h1 className="welcome-title">Sobre el&nbsp;<span className="bolder"> Movimiento Evita Azul.</span></h1>
                 <p>El Movimiento Evita es un movimiento social, piquetero y sindical, y una agrupación política de Argentina, que se define de ideología peronista, nacional, popular y revolucionaria.7​ Fue creado en 2004 y formó parte del Frente para la Victoria que gobernó entre 2003 y 2015. En 2016 el Movimiento Evita se separó del bloque parlamentario del Frente para la Victoria, formando un bloque propio denominado en un principio Peronismo para la Victoria.8​ Desde 2019 integra el gobernante Frente de Todos.</p>
                 <p>Su nombre fue adoptado como homenaje a Eva Perón. Integra la Confederación de Trabajadores de la Economía Popular (CTEP).</p>
                 <p>Su secretario general es Emilio Pérsico. Otros referentes del movimiento son el diputado nacional Leonardo Grosso, el periodista y abogado Fernando Chino Navarro y el responsable de Evita-CTEP Esteban Castro, entre otros.</p>

@@ -5,8 +5,6 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
-import Chip from '@mui/material/Chip';
 
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
@@ -18,7 +16,7 @@ const Posts = () => {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        let url = 'https://blog.movimientoevitaazul.com.ar/wp-json/wp/v2/posts?_embed';
+        let url = 'https://blog.movimientoevitaazul.com.ar/wp-json/wp/v2/posts?_embed&per_page=6';
         axios.get(url).then((res) => {
             setPosts(res.data);
         });
