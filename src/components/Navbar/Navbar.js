@@ -77,7 +77,7 @@ function ResponsiveAppBar() {
                                 </MenuItem>
                             </Link>
 
-                            <a href="https://www.blog.movimientoevitaazul.com.ar/" target="_blank">
+                            <a href="https://www.blog.movimientoevitaazul.com.ar/" target="_blank" rel="noreferrer">
                                 <MenuItem onClick={handleCloseNavMenu}>
                                     <Typography textAlign="center">Blog | Novedades</Typography>
                                 </MenuItem>
@@ -137,7 +137,7 @@ function ResponsiveAppBar() {
                             </Button>
                         </Link>
 
-                        <a href="https://www.blog.movimientoevitaazul.com.ar/" target="_blank">
+                        <a href="https://www.blog.movimientoevitaazul.com.ar/" target="_blank" rel="noreferrer">
                             <Button
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
