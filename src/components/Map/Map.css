@@ -16,7 +16,7 @@
 /*Lefleat Map*/
 .leaflet-container {
     width: 100vw;
-    height: 90vh;
+    height: 85vh;
   }
   .leaflet-popup {
     position: absolute;
