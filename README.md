@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Movimiento Evita - React.js Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
 
-## Available Scripts
+Esta es la aplicación web oficial del Movimiento Evita Azul, desarrollada en React.js. La aplicación proporciona información sobre el movimiento, noticias y un mapa interactivo de las unidades productivas.
 
-In the project directory, you can run:
+## Características
 
-### `npm start`
+- **Navegación**: La aplicación utiliza `react-router-dom` para gestionar la navegación entre diferentes secciones.
+- **Helmet**: Manejo dinámico de la información de la cabecera HTML.
+- **Mapas**: Integración con `react-leaflet` para mostrar mapas interactivos.
+- **Posts**: El componente `Posts` realiza fetching de datos desde la API REST de un WordPress, que actúa como headless CMS para obtener los posteos del blog. Se utiliza la librería `axios` para realizar solicitudes HTTP a la API REST de WordPress, lo que permite recuperar hasta 6 publicaciones en un formato JSON. Los posts se muestran en tarjetas con su título, categoría, imagen destacada, y un enlace para leer más.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Estructura del Proyecto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **`/src/App.js`**: Componente principal que gestiona las rutas y la estructura de la aplicación.
+- **`/src/components/`**: Carpeta que contiene los componentes reutilizables como `Navbar`, `Home`, `Posts`, `Movimiento`, y `Map`.
+- **`/public/`**: Carpeta pública que contiene el `index.html`, imágenes, y otros archivos estáticos.
 
-### `npm test`
+## Dependencias Principales
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: ^18.2.0
+- **React Router DOM**: ^6.4.3
+- **Material UI**: ^5.10.15
+- **Axios**: ^1.2.0
+- **React Leaflet**: ^4.1.0
 
-### `npm run build`
+## Scripts Disponibles
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+En este proyecto, puedes ejecutar los siguientes comandos:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **`npm start`**: Inicia la aplicación en modo de desarrollo.
+- **`npm run build`**: Construye la aplicación para producción en la carpeta `build`.
+- **`npm test`**: Ejecuta los tests de la aplicación.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalación
 
-### `npm run eject`
+Para instalar y ejecutar esta aplicación localmente, sigue estos pasos:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/julianbattaglino/react-movimiento-evita.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Instala las dependencias:
+   ```bash
+   npm install
+    
+3. Inicia la aplicación:
+   ```bash
+   npm start
