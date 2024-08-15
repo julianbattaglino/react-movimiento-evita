@@ -49,11 +49,7 @@ To install and run this application locally, follow these steps:
    ```bash
    npm start
 
-
-
-
-
-
+##
       
 # Movimiento Evita - React.js Web App
 
